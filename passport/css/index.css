@@ -183,6 +183,11 @@ body .home {
   color: white;
   padding-top: 10%;
 }
+@media (max-width:500px) {
+  body .home {
+    padding: 10%;
+  }
+}
 body .home a {
   text-decoration: none;
 }
@@ -193,6 +198,11 @@ body .home h1 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   border: #801336 2px solid;
+}
+@media (max-width:500px) {
+  body .home h1 {
+    padding: 3%;
+  }
 }
 body .home h2 {
   font-family: 'Inria Serif', serif;
