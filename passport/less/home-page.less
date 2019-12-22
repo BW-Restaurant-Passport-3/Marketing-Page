@@ -9,10 +9,14 @@ body {
     background-size: cover;
     background-attachment: fixed; 
     font-family: 'Inria Serif', serif;
+    
 
     .home {
         color: white;
         padding-top: 10%;
+        @media @phone {
+            padding: 10%;
+        }
 
         a {
             text-decoration: none;
@@ -26,6 +30,10 @@ body {
             text-align: center;
             font-family: 'Roboto', sans-serif;
             border: @claret 2px solid;
+            @media @phone {
+                padding: 3%;
+                
+            }
         }
         
 
