@@ -1,3 +1,10 @@
+.panel {
+  border: 3px solid dodgerblue;
+  background: #da1507;
+  color: green;
+  margin: 10%;
+  padding: 10%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -119,7 +126,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -134,14 +141,14 @@ html {
 }
 html,
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Indie Flower", cursive;
+  font-family: 'Indie Flower', cursive;
 }
 h1 {
   font-size: 4rem;
@@ -168,16 +175,67 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 14vh;
+  background-color: rgba(45, 19, 44, 0.7);
+  z-index: 1;
+}
+.navigation nav {
+  display: flex;
+  width: 65%;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Inria Serif', serif;
+  color: #C72C41;
+}
+.navigation nav .anchor {
+  height: 1rem;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  box-shadow: 0 5px 0 #c72c41;
+  color: blue;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  text-shadow: 2px 2px 6px #c72c41;
+}
+a:hover {
+  color: #c72c41;
+  cursor: pointer;
+}
+a:hover:active {
+  box-shadow: none;
+  top: 5px;
+}
+.pageTitle {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: #ee4540;
+  font-size: 4rem;
+  width: 35%;
+  border-radius: 25px;
+  padding: 20px;
+  text-shadow: 2px 2px 6px #c72c41;
+  padding-top: 2.2%;
+}
 body {
   background-image: url("img/image.png");
   width: 100%;
-  height: 100%;
-  position: fixed;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Inria Serif", serif;
+  font-family: 'Inria Serif', serif;
 }
 body .home {
   color: white;
@@ -193,10 +251,11 @@ body .home a {
 }
 body .home h1 {
   font-size: 68px;
+  padding-bottom: 5%;
   padding: 1%;
   margin-bottom: 5%;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   border: #801336 2px solid;
 }
 @media (max-width:500px) {
@@ -205,7 +264,7 @@ body .home h1 {
   }
 }
 body .home h2 {
-  font-family: "Inria Serif", serif;
+  font-family: 'Inria Serif', serif;
 }
 body .home .aboutus {
   color: #ee4540;
@@ -228,34 +287,51 @@ body .home button a {
   font-size: 20px;
   color: white;
 }
+body {
+  height: 100%;
+  margin: 0%;
+}
 .navigation {
   display: flex;
-  flex-direction: row;
-  line-height: 12vh;
-  background-color: #2d132c;
+  background-color: rgba(45, 19, 44, 0.7);
+  height: 14vh;
 }
-
 nav {
   display: flex;
   width: 65%;
   justify-content: space-evenly;
   align-items: center;
-  font-family: "Inria Serif", serif;
-  color: #c72c41;
-  font-size: 1rem;
+  font-family: 'Inria Serif', serif;
+  color: #C72C41;
 }
-
+.anchor {
+  height: 1rem;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
 a {
-  margin-top: %;
-  color: inherit;
+  box-shadow: 0 5px 0 #c72c41;
+  color: #ee4540;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-
+a:hover {
+  background-color: #ce0606;
+  cursor: pointer;
+}
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
 .pageTitle {
   display: flex;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #ee4540;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   width: 35%;
-  height: 20%;
-  justify-content: center;
+  padding-top: 2.8%;
 }
