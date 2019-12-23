@@ -251,7 +251,7 @@ a:hover:active {
   margin: 0;
 }
 .footer-distributed h3 span {
-  color: lightseagreen;
+  color: #c72c41;
 }
 .footer-distributed .footer-distributed .footer-links {
   color: #ffffff;
@@ -354,6 +354,7 @@ body .home {
 @media (max-width:500px) {
   body .home {
     padding: 10%;
+    margin-top: 20%;
   }
 }
 body .home a {
