@@ -357,6 +357,11 @@ body .home {
     margin-top: 20%;
   }
 }
+@media (max-width:800px) {
+  body .home {
+    margin-top: 10%;
+  }
+}
 body .home a {
   text-decoration: none;
 }
