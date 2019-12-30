@@ -11,6 +11,8 @@
   font-family: 'Inria Serif', serif;
   color: white;
   text-align: center;
+  padding-top: 3%;
+  text-shadow: 1px 1px 3px white;
 }
 .panel .imgTitle .leftSide {
   display: flex;
@@ -211,7 +213,6 @@ img {
   justify-content: space-evenly;
   align-items: center;
   font-family: 'Inria Serif', serif;
-  color: #C72C41;
 }
 .navigation nav .anchor {
   height: 1rem;
@@ -223,7 +224,6 @@ img {
 }
 a {
   box-shadow: 0 5px 0 #c72c41;
-  color: blue;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -340,6 +340,60 @@ body .home button a {
 }
 .boxPic2 {
   content: url("img/downtown.jpeg");
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+}
+.boxPic3 {
+  content: url("img/francos.jpeg");
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+}
+.boxPic4 {
+  content: url("img/pho.jpeg");
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+}
+.boxPic5 {
+  content: url("img/cake.jpeg");
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+}
+.boxPic6 {
+  content: url("img/Jvani.png");
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+}
+.boxPic7 {
+  content: url("img/Santa.jpeg");
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+}
+.boxPic8 {
+  content: url("img/Mishiguene.jpg");
   max-width: 100%;
   height: auto;
   border: 1px solid #ddd;
