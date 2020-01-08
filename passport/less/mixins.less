@@ -5,6 +5,13 @@
     padding: 1%;
     display: flex;
     height: auto;
+    @media @phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+   
 
     .imgTitle{
         font-size: 3.4rem;
@@ -13,6 +20,12 @@
         text-align: center;
         padding-top: 3%;
         text-shadow: 1px 1px 3px white;
+        @media @phone {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        
       
        
         .leftSide {
@@ -30,8 +43,9 @@
             padding: 2%;
             align-content: center;
             color:rgb(226, 224, 224);
-            }
+              }
+           }
         }
-    }
-
-}
+      }
+   }
+ }
