@@ -378,7 +378,7 @@ body .home {
     margin-top: 20%;
   }
 }
-@media (max-width:800px) {
+@media (max-width:896px) {
   body .home {
     margin-top: 10%;
   }
@@ -516,6 +516,97 @@ body .home button a {
   border-radius: 4px;
   padding: 5px;
   width: auto;
+}
+.cardssection {
+  background-color: white;
+  margin: 10% auto;
+}
+.cardssection h3 {
+  font-size: 68px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  text-align: center;
+  font-family: 'Inria Serif', serif;
+}
+@media (max-width:500px) {
+  .cardssection h3 {
+    padding: 3%;
+  }
+}
+.cardssection .main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cardssection img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.cardssection .btn {
+  color: black;
+  padding: 0.8rem;
+  margin-bottom: 3%;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #c72c41;
+  background: transparent;
+}
+.cardssection .btn:hover {
+  background-color: #ee4540;
+}
+.cardssection .cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cardssection .cards_item {
+  display: flex;
+  padding: 1rem;
+  margin: 5% 0;
+}
+@media (max-width:896px) {
+  .cardssection .cards_item {
+    width: 100%;
+  }
+}
+@media (min-width: 896px) {
+  .cardssection .cards_item {
+    width: 33.3333%;
+  }
+}
+.cardssection .card {
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 0 40px 40px -8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.cardssection .card_content {
+  padding: 1rem;
+  background: white;
+}
+.cardssection .card_title {
+  color: #2d132c;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+.cardssection .card_text {
+  color: #801336;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
 }
 body {
   height: 100%;
