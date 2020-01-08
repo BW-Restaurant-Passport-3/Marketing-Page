@@ -1,4 +1,4 @@
-.footer-distributed{
+.footer-area{
 	background: @mardi-gras;
 	width: 100%;
 	text-align: left;
@@ -7,6 +7,13 @@
     .footer-left, .footer-center, .footer-right {
 	display: inline-block;
     vertical-align: top;
+    @media @tablet {
+            display: inline;
+        }
+
+    @media @tablet {
+        vertical-align: top;
+        }
     }
 
     .footer-left{
@@ -52,7 +59,6 @@
             width: 35%;
 
             i {
-                background-color:  #33383b;
                 color: #ffffff;
                 font-size: 25px;
                 width: 38px;
@@ -120,7 +126,7 @@
             border-radius: 2px;
         
             font-size: 20px;
-            color: #2c2b2b;
+            color: @claret;
             text-align: center;
             line-height: 35px;
         
