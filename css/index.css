@@ -272,13 +272,12 @@ a:hover:active {
   text-shadow: 2px 2px 6px #c72c41;
   padding-top: 2.2%;
 }
-.footer-area {
 @media (max-width:500px) {
   .pageTitle {
     text-align: center;
   }
 }
-.footer-distributed {
+.footer-area {
   background: #2d132c;
   width: 100%;
   text-align: left;
@@ -394,7 +393,7 @@ a:hover:active {
   cursor: pointer;
   background-color: #d1e0eb;
   border-radius: 2px;
-  font-size: 20px;
+  font-size: 25px;
   color: #801336;
   text-align: center;
   line-height: 35px;
