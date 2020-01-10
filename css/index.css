@@ -254,7 +254,7 @@ a {
   text-shadow: 2px 2px 6px #c72c41;
 }
 a:hover {
-  color: #c72c41;
+  color: white;
   cursor: pointer;
 }
 a:hover:active {
@@ -296,12 +296,6 @@ a:hover:active {
   .footer-area .footer-center,
   .footer-area .footer-right {
     display: inline;
-  }
-}
-@media (max-width:896px) {
-  .footer-area .footer-left,
-  .footer-area .footer-center,
-  .footer-area .footer-right {
     vertical-align: top;
   }
 }
@@ -402,11 +396,14 @@ a:hover:active {
 }
 body {
   background-image: url("img/image.png");
-  width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
   background-attachment: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
   font-family: 'Inria Serif', serif;
 }
 body .home {
@@ -447,7 +444,8 @@ body .home .aboutus {
   font-size: 24px;
 }
 body .home .aboutus:hover {
-  color: #c72c41;
+  color: black;
+  background-color: white;
 }
 body .home button {
   padding: 1%;
