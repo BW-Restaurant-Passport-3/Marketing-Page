@@ -6,6 +6,11 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
     font-family: 'Inria Serif', serif;
   
   
@@ -33,10 +38,8 @@ body {
             border: @claret 2px solid;
             @media @phone {
               padding: 3%;
-                
             }
         }
-        
 
         h2 {
             font-family: 'Inria Serif', serif;
@@ -45,14 +48,13 @@ body {
         .aboutus {
             color: @cinnabar;
             font-size: 24px;
-
              &:hover {
-                color: @brick-red;
+                color: black;
+                background-color: white;
             }
         }
 
         button {
-
             padding: 1%;
             margin: 2%;
             background: none;
@@ -63,7 +65,6 @@ body {
                 background-color: @brick-red;
             }
             
-
             a {
                 font-size: 20px;
                 color: white;
